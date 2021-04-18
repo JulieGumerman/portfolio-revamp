@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-    background: salmon;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
 }
+
+@media only screen and (min-width: 600px) {
+    body {
+      margin: 40px;
+    }
+  }
