@@ -5,6 +5,21 @@ body {
     margin: 20px;
 }
 
+.header, .footer {
+  background: #22262b;
+}
+
+.project-container {
+  border: 4px purple solid
+}
+
+.project-pic-container {
+  border: 2px green solid;
+}
+.project-details-container {
+  border: 2px salmon solid;
+}
+
 @media only screen and (min-width: 600px) {
     body {
       margin: 40px;
@@ -13,7 +28,18 @@ body {
 
 @media only screen and (min-width: 720px) {
   ul {
-    columns: 2
+    columns: 2;
+  }
+
+  .project-container {
+    display: flex;
+  }
+
+  .project-pic-container {
+    width: 49%;
+  }
+  .project-details-container {
+    width: 49%;
   }
 }
 
@@ -21,4 +47,6 @@ body {
   ul {
     columns: 3
   }
+
+
 }
